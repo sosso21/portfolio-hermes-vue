@@ -1,0 +1,62 @@
+
+    .fs-16{
+        font-size: 8rem;
+    }
+    .fs-8{
+    font-size:4rem;
+  }
+.fs-6{
+    font-size:3rem;
+  }
+  .fs-3{
+    font-size:1.5rem;
+  }
+  .fs-2{
+    font-size:1rem;
+  }
+  
+  .bg-img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+  .pre-wrap{
+      white-space: pre-wrap;
+  }
+
+  
+
+.fade-opacity {
+    animation: fadeIn ease  5s; 
+    }
+    @keyframes fadeIn {
+    from{opacity:0;}
+    to{opacity:1;}
+    }
+    
+
+
+    
+.slide-left {
+    
+    animation: slideLeft ease 1s; 
+    position: relative; 
+}
+
+
+@keyframes slideLeft {
+    0% { left: 12rem; }
+    100% { left: 0; }
+}
+
+
+    
+.slide-top {
+
+    animation: slideTop ease 1s; 
+    position: relative; 
+}
+@keyframes slideTop {
+    0% { top: -12rem; }
+    100% { top: 0; }
+}
