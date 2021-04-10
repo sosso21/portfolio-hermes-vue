@@ -1,13 +1,13 @@
 <template>
-  <section class="w-100 vh-100 text-light bg-dark bg-laptop bg-img">
+  <section class="dimension-home text-light bg-dark bg-laptop bg-img">
     <NavBar />
     <div
-      class="w-100 h-100 container d-flex justify-content-around align-items-center flex-column text-center"
+      class="w-100 h-100 container d-flex justify-content-around align-items-around flex-column text-center"
     >
       <h1 class="title-anim shadow fs-16 font-weight-bold">
         {{ data.title.toUpperCase() }}
       </h1>
-      <p class="w-75">{{ data.description }}</p>
+      <p class="m-auto w-75">{{ data.description }}</p>
       <Social />
       <NuxtLink
         to="/about"
@@ -26,6 +26,11 @@ export default {
 };
 </script>
 <style scoped>
+.dimension-home{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
 .bg-laptop {
   background-image: url("@/static/laptop.jpg");
 }
@@ -60,5 +65,11 @@ export default {
   100% {
     transform: rotate(0deg);
   }
+}
+
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 3rem;
+}
 }
 </style>

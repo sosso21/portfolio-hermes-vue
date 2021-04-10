@@ -1,7 +1,7 @@
 export const state = () => ({
   data: {
     title: "Hermes Dev",
-    description: "Développeur Front-end & Back-end Spécialisé dans le web . Création, Optimisation et maintenance D'Applications, de Bases de données et d'API. Automatisation de vos taches tout en Boostant Vos business en œuvrant à monter votre contenue aux premiers Résultats des moteurs de reverches (SEO).",
+    description: "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API.Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de reverches (SEO).",
     navLink: [{
       name: "À Ppropos",
       href: "/about",
@@ -152,8 +152,7 @@ export const state = () => ({
          name:"Vania JavaScript",
          note:1,
          img:[
-           "https://jf-blog.fr/wp-content/uploads/2015/09/jquery.gif",
-           "https://402.ecma-international.org/6.0/img/ecma-logo.svg"
+           "https://jf-blog.fr/wp-content/uploads/2015/09/jquery.gif"
          ]
        },
        {

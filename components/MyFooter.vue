@@ -1,5 +1,5 @@
 <template>
-<footer class=" w-100 bg-dark text-light py-4">
+<footer class="w-100 bg-dark text-light py-4">
 <div class="mx-auto w-50 text-center">
 <NuxtLink to="/home" class="btn text-light fs-8 my-4 bi bi-chevron-double-up"></NuxtLink>
 <Social/>

@@ -24,9 +24,8 @@
         <li v-for="i in data.techno.bareme" :class="'text-'+ data.techno.class[i.note]">{{i.remarque}} </li>
         </ul>
          <ul class="list-technos">
-         <li v-for="i in data.techno.items" :class="'mx-4 my-4 d-flex justify-content-between text-'+ data.techno.class[i.note]"><h4 class="font-weight-light"> {{(i.name).toUpperCase() }}</h4>
-         
-          <nuxt-img v-if="i.img" v-for="img in i.img" class="img-small-techno" :src="img" :alt="i.name" />
+         <li v-for="i in data.techno.items" :class="'mx-4 my-4 d-flex justify-content-start align-items-start flex-wrap text-'+ data.techno.class[i.note]"><h4 class="font-weight-light"> {{(i.name).toUpperCase() }}</h4>
+<nuxt-img v-if="i.img" v-for="img in i.img" class="img-small-techno" :src="img" :alt="i.name" />
          </li>
          </ul>
          

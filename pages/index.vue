@@ -1,5 +1,5 @@
 <template>
-<main class="vh-100 w-100 bg-danger ">
+<main class="h-100 w-100 bg-light text-dark">
 <Home id="home"/>
 <About id="about"/>
 <Experience id="skill"/>
