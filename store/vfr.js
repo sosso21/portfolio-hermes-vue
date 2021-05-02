@@ -78,7 +78,13 @@ export const state = () => ({
         title: "Qualifications",
         education: {
           title: "expériences",
-          items: [
+          items: [ {
+            title: "Développement Web",
+            description: "Milliers d'heures de Travaille, de recherches en Autodidacte .Apprentissage de nombeaux Languages, Réalisation de Projet ...ect",
+          },{
+            title: "Sécurité informatique",
+            description: "Centaine d'heurs de travaille , d'apprentissage de languages de programation, d'utilisation de Linux. Apprentissage en Autodidacte et Pinteste sur les Machines de CTF comme; RootME ,HackTheBox..ect ",
+          },
             {
               title: "Licence 2 électrotechnique UMMTO",
               description: " Filière Orienté vers le domaine électrique. Le module informatique traite du language MATHLAB.",
@@ -149,7 +155,7 @@ export const state = () => ({
           ]
         },
         {
-         name:"Vania JavaScript",
+         name:"JavaScript Simple",
          note:1,
          img:[
            "https://jf-blog.fr/wp-content/uploads/2015/09/jquery.gif"
@@ -188,7 +194,7 @@ export const state = () => ({
     img:["https://upload.wikimedia.org/wikipedia/commons/4/45/NuxtJS_Logo.png"]
   },
   {
-   name:"SASS",
+   name:"SCSS",
    note:2,
    img:false
  }
@@ -243,7 +249,7 @@ export const state = () => ({
           {
             name: "Application de messagerie",
             img: "/project/messanger.jpg",
-            description: "messagerie crée avec node js - sochet.io et un client en React . ",
+            description: "messagerie crée avec node js - socket.io et un client en React . ",
             github: "https://github.com/sosso21/messagerie-socket-io",
             host: false
           },

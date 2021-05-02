@@ -1,11 +1,11 @@
 <template>
     <section class="w-100 bg-light text-dark">
-        <h2 class="fs-3 text-center my-4 font-weight-bold">{{(data.title).toUpperCase() }} </h2>
+        <h2 class="fs-3 text-center my-4 font-weight-bold">{{(data.title).toUpperCase()}} </h2>
         <div class="container d-flex justify-content-between flex-wrap">
         <span>
-        <h3 class="fs-2 border-title-exp border-dark font-weight-bold">{{(data.education.title).toUpperCase() }} :</h3>
+        <h3 class="fs-2 border-title-exp border-dark font-weight-bold">{{(data.education.title).toUpperCase()}}:</h3>
         </span>
-        <div>
+        <div class="w-75">
         <span v-for="i in data.education.items">
         <h4 class="fs-2 my-2 font-weight-bold">{{i.title}} </h4>
         <p>{{i.description}} </p> 

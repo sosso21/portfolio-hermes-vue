@@ -8,7 +8,7 @@
        <h3 class="fs-3 font-weight-bold">{{data.contact.title}}:</h3>
        <address class="pre-wrap">
        {{data.contact.items.name}}
-       {{data.contact.items.town}}
+       <strong class="font-weight-light">{{data.contact.items.town}}</strong>
        {{data.contact.items.state}} {{data.contact.items.cp}}
        {{data.contact.items.contry}}
        <a target="_blank" class="text-light" :href="'tel:'+ data.contact.items.phone"> {{data.contact.items.phone}}</a>
@@ -18,7 +18,7 @@
        </address>
        </Article>
        <div>
-       <button @click="seeTarget = !seeTarget" :class="'btn btn-lg btn-'+ (seeTarget ? 'dark' : 'outline-dark')"><i class="bi bi-emoji-smile-fill"></i> {{data.contact.joke.title}}</button>
+       <button @click="seeTarget = !seeTarget" :class="'btn btn-lg btn-'+ (seeTarget ? 'dark' : 'outline-dark')"><i v-if="seeTarget" class="bi bi-emoji-laughing-fill"></i><i v-else class="bi bi-emoji-smile-fill"></i> {{data.contact.joke.title}}</button>
        <transition name="bounce">
        <span v-if="seeTarget" class="d-block pre-wrap"> {{data.contact.joke.text}} </span>
        </transition>
