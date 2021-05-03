@@ -1,7 +1,10 @@
+const title = "Hermes Dev ";
+const decription =  "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API.Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de reverches (SEO)."
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Hermes Dev',
+    title: title,
     htmlAttrs: {
       lang: 'fr'
     },
@@ -9,8 +12,9 @@ export default {
       { charset: 'utf-8' },
       {name:"google-site-verification", content:"o7vE04gAoE_TPXejFD2uMlk_m3mltKl2vcrTwmE8oY4"},
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API.Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de reverches (SEO)."}
-
+      { hid: 'description', name: 'description', content:decription},
+      {property:"og:title", content: title },
+      {property: 'og:description', content: decription  }
     ],
     link: [
       { rel:'icon', type:'image/x-icon', href:'/favicon.ico' },
