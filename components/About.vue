@@ -9,8 +9,8 @@
        <address class="pre-wrap">
        {{data.contact.items.name}}
        <strong class="font-weight-light">{{data.contact.items.town}}</strong>
-       {{data.contact.items.state}} {{data.contact.items.cp}}
-       {{data.contact.items.contry}}
+        <strong class="font-weight-light"> {{data.contact.items.state}} {{data.contact.items.cp}}
+       {{data.contact.items.contry}} </strong>
        <a target="_blank" class="text-light" :href="'tel:'+ data.contact.items.phone"> {{data.contact.items.phone}}</a>
        <a target="_blank" class="d-block text-light" :href="'mailto:'+data.contact.items.email"> {{data.contact.items.email}}</a>
  
