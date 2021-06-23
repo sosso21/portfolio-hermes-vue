@@ -1,7 +1,7 @@
 export const state = () => ({
   data: {
     title: "Hermes Dev",
-    description: "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API.Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de reverches (SEO).",
+    description: "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API.Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de recherches (SEO).",
     navLink: [{
       name: "À Ppropos",
       href: "/about",
@@ -44,7 +44,7 @@ export const state = () => ({
       about: {
         title: "À Propos",
         avatar: {
-          src: "/hermes.png",
+          src: "https://hermes-dev-fr.web.app/mini-hermes.jpg",
           alt: "avatar hermes dev created by Moh Most"
 
         },
