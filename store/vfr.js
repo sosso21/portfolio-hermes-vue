@@ -1,7 +1,7 @@
 export const state = () => ({
   data: {
     title: "Hermes Dev",
-    description: "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API.Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de recherches (SEO).",
+    description: "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API. Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de recherches (SEO).",
     navLink: [{
       name: "À Ppropos",
       href: "/about",
@@ -94,10 +94,10 @@ export const state = () => ({
               description: " Formation Maintenance, Réparation de matériels informatique et bureautique."
             },
             {
-              title: "Ecole IVT",
+              title: "École IVT",
               description: "Formation aux marchées financiers, Créations d'algorithmes liées au trading."
             }
-          ],
+          ]
         },
           techno : {
             title:"Technologies",

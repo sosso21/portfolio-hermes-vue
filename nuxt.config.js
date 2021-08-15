@@ -1,5 +1,5 @@
-const title = "Hermes Dev ";
-const decription =  "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API.Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de recherches (SEO)."
+const title = "Hermes Dev - Développeur Full Stack | Creéation de sites web personnalisé";
+const decription =  "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API. Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de recherches (SEO)."
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
