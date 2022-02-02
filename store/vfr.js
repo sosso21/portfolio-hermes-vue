@@ -5,7 +5,7 @@ export const state = () => ({
       "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API. Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de recherches (SEO).",
     navLink: [
       {
-        name: "À Ppropos",
+        name: "À Propos",
         href: "/about",
         svg: "bi bi-info-circle-fill",
       },
@@ -154,7 +154,7 @@ export const state = () => ({
             {
               name: "HTML/CSS",
               note: 2,
-              img: false,
+              img: ["https://www.easy-micro.org/images/logiciels/web-frameworks/bootstrap-stack.png","https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"],
             },
             {
               name: "PHHP",
@@ -172,7 +172,7 @@ export const state = () => ({
             {
               name: "JavaScript",
               note: 1,
-              img: ["https://jf-blog.fr/wp-content/uploads/2015/09/jquery.gif"],
+              img: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png","https://jf-blog.fr/wp-content/uploads/2015/09/jquery.gif"],
             },
             {
               name: "React.js",
@@ -206,6 +206,7 @@ export const state = () => ({
               note: 2,
               img: [
                 "https://upload.wikimedia.org/wikipedia/commons/4/45/NuxtJS_Logo.png",
+                "https://seeklogo.com/images/V/vuetify-logo-3BCF73C928-seeklogo.com.png"
               ],
             },
             {
