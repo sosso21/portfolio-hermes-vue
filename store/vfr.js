@@ -184,7 +184,7 @@ export const state = () => ({
               note: 2,
               img: [
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png",
-                "https://codingthesmartway.com/wp-content/uploads/2019/02/gatsby-logo.png",
+                "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gatsby-colored.svg",
               ],
             },
             {
