@@ -2,7 +2,7 @@ export const state = () => ({
   data: {
     title: "Hermes Dev",
     description:
-      "Développeur Front-end & Back-end. Spécialisé dans le web . Création, Optimisation et maintenance D'Applications,Sites web , Bases de données et API. Mon objectif est  l'automatisation de vos tâches tout en Boostant vos business en œuvrant à monter votre contenue aux premiers résultats des moteurs de recherches (SEO).",
+      "Développeur Front-end & Back-end. Spécialisé dans le web. Création, optimisation et maintenance d'applications, sites web, bases de données et API. Mon objectif est d'automatiser vos tâches tout en boostant votre business en œuvrant pour positionner votre contenu parmi les premiers résultats des moteurs de recherche (SEO).",
     navLink: [
       {
         name: "À Propos",
@@ -25,7 +25,6 @@ export const state = () => ({
         svg: "bi bi-person-lines-fill",
       },
     ],
-
     social: [
       {
         link: "https://www.linkedin.com/in/hermes-dev-b287041a5/",
@@ -56,13 +55,13 @@ export const state = () => ({
           alt: "avatar hermes dev created by Moh Most",
         },
         contact: {
-          title: "Coordonnées ",
+          title: "Coordonnées",
           items: {
             name: "Sofiane Gherab",
             town: "Commune et Chef lieu : Mâtkas.",
             state: "Département de Tizi Ouzou",
             cp: 15154,
-            contry: "Algérie,(Dz)",
+            country: "Algérie, (Dz)",
             phone: "+213 559 205 748",
             email: "hermesdev9@gmail.com",
           },
@@ -75,7 +74,7 @@ export const state = () => ({
             gagner les défis
             parcourir la terre entière
             Traquant avec espoir
-            les framework et leurs mystères
+            les frameworks et leurs mystères
             Le secret de leurs pouvoirs`,
           },
         },
@@ -83,39 +82,39 @@ export const state = () => ({
       experience: {
         title: "Qualifications",
         education: {
-          title: "expériences",
+          title: "Expériences",
           items: [
             {
               title: "Développement Web",
               description:
-                "Milliers d'heures de Travaille, de recherches en Autodidacte .Apprentissage de nombeaux Languages, Réalisation de Projet ...ect",
+                "Des milliers d'heures de travail et de recherche en autodidacte. Apprentissage de nombreux langages, réalisation de projets, etc.",
             },
             {
               title: "Sécurité informatique",
               description:
-                "Centaine d'heurs de travaille , d'apprentissage de languages de programation, d'utilisation de Linux. Apprentissage en Autodidacte et Pinteste sur les Machines de CTF comme; RootME ,HackTheBox..ect ",
+                "Des centaines d'heures de travail, d'apprentissage de langages de programmation et d'utilisation de Linux. Apprentissage en autodidacte et participation à des CTF comme RootME, HackTheBox, etc.",
             },
             {
-              title: "Licence 2 électrotechnique UMMTO",
+              title: "Licence 2 en électrotechnique à l'UMMTO",
               description:
-                " Filière Orienté vers le domaine électrique. Le module informatique traite du language MATHLAB.",
+                "Filière orientée vers le domaine électrique. Le module informatique traite du langage MATLAB.",
             },
             {
-              title: "Maintenance Informatique - Institue Expression",
+              title: "Maintenance Informatique - Institut Expression",
               description:
-                " Formation Maintenance, Réparation de matériels informatique et bureautique.",
+                "Formation en maintenance et réparation de matériels informatiques et bureautiques.",
             },
             {
               title: "École IVT",
               description:
-                "Formation aux marchées financiers, Créations d'algorithmes liées au trading.",
+                "Formation aux marchés financiers et création d'algorithmes liés au trading.",
             },
           ],
         },
         techno: {
           title: "Technologies",
           class: ["secondary", "primary", "success"],
-          text: "Les Langages , framwork et outils  ci-dessous sont estimer selon leur métrise et leurs préférences via le barème colorimétrique suivant:",
+          text: "Les Langages, frameworks et outils ci-dessous sont estimés selon leur maîtrise et leurs préférences via le barème colorimétrique suivant :",
           bareme: [
             {
               note: 0,
@@ -142,7 +141,7 @@ export const state = () => ({
               img: false,
             },
             {
-              name: "Mathlab",
+              name: "Matlab",
               note: 0,
               img: false,
             },
@@ -154,10 +153,13 @@ export const state = () => ({
             {
               name: "HTML/CSS",
               note: 2,
-              img: ["https://www.easy-micro.org/images/logiciels/web-frameworks/bootstrap-stack.png","https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"],
+              img: [
+                "https://www.easy-micro.org/images/logiciels/web-frameworks/bootstrap-stack.png",
+                "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
+              ],
             },
             {
-              name: "PHHP",
+              name: "PHP",
               note: 1,
               img: false,
             },
@@ -172,7 +174,10 @@ export const state = () => ({
             {
               name: "JavaScript",
               note: 1,
-              img: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png","https://jf-blog.fr/wp-content/uploads/2015/09/jquery.gif"],
+              img: [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+                "https://jf-blog.fr/wp-content/uploads/2015/09/jquery.gif",
+              ],
             },
             {
               name: "React.js",
@@ -206,7 +211,7 @@ export const state = () => ({
               note: 2,
               img: [
                 "https://upload.wikimedia.org/wikipedia/commons/4/45/NuxtJS_Logo.png",
-                "https://seeklogo.com/images/V/vuetify-logo-3BCF73C928-seeklogo.com.png"
+                "https://seeklogo.com/images/V/vuetify-logo-3BCF73C928-seeklogo.com.png",
               ],
             },
             {
@@ -225,15 +230,16 @@ export const state = () => ({
       project: {
         title: "Projets",
         modal: {
-          github: { svg: "bi bi-github", text: "voir le répertoire Github" },
+          github: { svg: "bi bi-github", text: "voir le répertoire GitHub" },
           host: { svg: "bi bi-link-45deg", text: "voir le site" },
         },
+
         items: [
           {
             name: "Falcon",
             img: "/project/falcon.jpg",
             description:
-              "Boutique e-Commerce , front en  react , back node js koa ( plus précisément avec strapi) , Base de données MongoDB. le projet a pris plus de 6 mois. Cela dit il ne sera exploité au mons avant la version suivante qui exploiteras les avantage de nuxt js , ajoutons à cela qu'on devras intégrer un multi thàme, un multi-langue. ",
+              "Boutique e-Commerce, front en React, back en Node.js avec Koa (plus précisément avec Strapi), base de données MongoDB. Le projet a pris plus de 6 mois. Cependant, il ne sera exploité au moins avant la version suivante qui exploitera les avantages de Nuxt.js. De plus, nous devrons intégrer un système de thèmes multiples et de langues multiples.",
             github: "https://github.com/sosso21/falcon-client-react-app",
             host: "https://falcon-com.web.app",
           },
@@ -241,7 +247,7 @@ export const state = () => ({
             name: "Maroua Shopping",
             img: "/project/maroua.jpg",
             description:
-              "Boutique e-Commerce en PHP, JS , et une base données MySAQL.",
+              "Boutique e-Commerce en PHP, JS et une base de données MySQL.",
             github:
               "https://github.com/sosso21/php-TP/tree/master/Salfise%20Shop",
             host: false,
@@ -249,15 +255,15 @@ export const state = () => ({
           {
             name: "Site vitrine pour un Coiffeur",
             img: "/project/amar.jpg",
-            description: "Projet  simple en Vue (nuxt js)",
+            description: "Projet simple en Vue.js (Nuxt.js).",
             github: "https://github.com/sosso21/vitrine-amar-coiffeur",
             host: "https://amar-coiffeur.web.app",
           },
           {
-            name: "Espace Administrateur Pour boutique E-commerce",
+            name: "Espace Administrateur pour boutique E-commerce",
             img: "/project/falcon-admin.jpg",
             description:
-              "Projet en vue js . ce site permet très facilement de générer les différents champs pour la base de données, il permet de calculer facilement les prix , les marges . Il permet aussi de générer les publications Instagram et facebook et les images à exploiter . la prochaine version intégreras une automatisation des publications. ",
+              "Projet en Vue.js. Ce site permet de générer facilement les différents champs pour la base de données. Il permet également de calculer les prix et les marges de manière simple. De plus, il génère les publications Instagram et Facebook ainsi que les images à exploiter. La prochaine version intégrera une automatisation des publications.",
             github: "https://github.com/sosso21/vue-falcon-dev-tool",
             host: "https://falcon-image.web.app",
           },
@@ -265,7 +271,7 @@ export const state = () => ({
             name: "Hermes dev - version 1.0",
             img: "/project/hermes-dev-react.jpg",
             description:
-              "Portfolio en  React. le site a été mis à jour pour un soucis de SEO  , ajoutant à cela que le système de pourcentage de maitrise des technologies a été retirer , la version actuel est en vue js ( nuxt )",
+              "Portfolio en React. Le site a été mis à jour pour des raisons de SEO. De plus, le système de pourcentage de maîtrise des technologies a été retiré. La version actuelle est en Vue.js (Nuxt.js).",
             github: "https://github.com/sosso21/react-hermes-dev-portfolio.git",
             host: "https://hermes-dev-fr.web.app",
           },
@@ -273,7 +279,7 @@ export const state = () => ({
             name: "Application de messagerie",
             img: "/project/messanger.jpg",
             description:
-              "messagerie crée avec node js - socket.io et un client en React . ",
+              "Messagerie créée avec Node.js, Socket.IO et un client en React.",
             github: "https://github.com/sosso21/messagerie-socket-io",
             host: false,
           },
@@ -281,7 +287,7 @@ export const state = () => ({
             name: "Malware - Projet 66",
             img: "/project/projet66.PNG",
             description:
-              "Payload en bash - pyrhon - java . permet de prendre le controle d'un oridinateur à distence, récupérer des frappes de clavier , les images de la webcam à des intérvalles régulier et aussi d'effectuer une escalades de privilèges sur la sible. il est indétectable par les antivirus , les parfeu et autre sécurité tout en restant percistant , bref c'est une vrai saloperie xD . il est possible de l'intégrer dans une vision d'exploitation en le connectant à un server ou un FTP. ",
+              "Payload en Bash, Python et Java. Permet de prendre le contrôle d'un ordinateur à distance, de récupérer les frappes de clavier, les images de la webcam à intervalles réguliers et d'effectuer une élévation de privilèges sur la cible. Il est indétectable par les antivirus, les pare-feu et autres mesures de sécurité, tout en restant persistant. Bref, c'est une vraie saloperie xD. Il est possible de l'intégrer dans une vision d'exploitation en le connectant à un serveur ou un FTP.",
             github: "https://github.com/sosso21/project66",
             host: false,
           },
@@ -289,7 +295,7 @@ export const state = () => ({
             name: "Robot de trading",
             img: "/project/trading.jpg",
             description:
-              " outils codé en Java .  Indicateurs technique  en trading utilisable sur ProRealTime constitué d'un timer permettant de rentrer dans une position au meilleur moment , un proscreener qui permet d'afficher les marchées intéressant, un robot automatique prenant des positions de manière autonome , un indicateur de tendance  utiliser pour indiquer les meilleurs optique et tendance à suivre sur un marchée. ",
+              "Outil codé en Java pour le trading. Il utilise des indicateurs techniques sur ProRealTime, tels qu'un timer permettant de rentrer dans une position au meilleur moment, un proscreener qui affiche les marchés intéressants, un robot automatique prenant des positions de manière autonome, et un indicateur de tendance pour indiquer les meilleures opportunités et tendances à suivre sur un marché.",
             github: false,
             host: false,
           },
