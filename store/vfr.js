@@ -148,25 +148,31 @@ export const state = () => ({
             {
               name: "Python",
               note: 0,
-              img: false,
+              img: [
+                "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg",
+                "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg",
+              ],
             },
             {
               name: "HTML/CSS",
               note: 2,
               img: [
-                "https://www.easy-micro.org/images/logiciels/web-frameworks/bootstrap-stack.png",
+                "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg",
                 "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
               ],
             },
             {
               name: "PHP",
               note: 1,
-              img: false,
+              img: [
+                "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg",
+              ],
             },
             {
-              name: "MySQL",
+              name: "SQL",
               note: 2,
               img: [
+                "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
                 "https://e7.pngegg.com/pngimages/747/798/png-clipart-mysql-mysql.png",
                 "https://www.valentina-db.com/images/sqlite/SQLitelogo_641x400.png",
               ],
@@ -183,7 +189,7 @@ export const state = () => ({
               name: "React.js",
               note: 2,
               img: [
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png",
+                "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg",
                 "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gatsby-colored.svg",
               ],
             },
@@ -191,11 +197,19 @@ export const state = () => ({
               name: "Node.js",
               note: 2,
               img: [
-                "https://expressjs.com/images/express-facebook-share.png",
+                "https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg",
+
+                "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg",
                 "https://habrastorage.org/getpro/habr/post_images/3a9/b5c/98c/3a9b5c98c384865ed6f78994cf9c0444.gif",
                 "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/hp-logo-hero_c94026101f.svg",
               ],
             },
+            {
+              name: "Astro",
+              note: 2,
+              img: false,
+            },
+
             {
               name: "MongoDB",
               note: 2,
