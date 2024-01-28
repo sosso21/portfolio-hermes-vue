@@ -60,7 +60,7 @@ export const state = () => ({
             name: "Sofiane Gherab",
             town: "Commune et Chef lieu : Mâtkas.",
             state: "Département de Tizi Ouzou",
-            cp: 15154,
+            cp: 31106,
             country: "Algérie, (Dz)",
             phone: "+213 559 205 748",
             email: "hermesdev9@gmail.com",
