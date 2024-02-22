@@ -27,23 +27,23 @@ export const state = () => ({
     ],
     social: [
       {
-        link: "https://www.linkedin.com/in/hermes-dev-b287041a5/",
+        link: "https://www.linkedin.com/in/",
         svg: "bi bi-linkedin",
       },
       {
-        link: "https://github.com/sosso21",
+        link: "https://github.com/abdelkaderchabani",
         svg: "bi bi-github",
       },
       {
-        link: "https://www.facebook.com/Hermes-Dev-105317471485647",
+        link: "https://www.facebook.com/",
         svg: "bi bi-facebook",
       },
       {
-        link: "https://www.instagram.com/hermes_dev/?hl=fr",
+        link: "https://www.instagram.com",
         svg: "bi bi-instagram",
       },
       {
-        link: "https://twitter.com/sofianesosso21",
+        link: "https://twitter.com/",
         svg: "bi bi-twitter",
       },
     ],
@@ -57,12 +57,12 @@ export const state = () => ({
         contact: {
           title: "Coordonnées",
           items: {
-            name: "Sofiane Gherab",
-            town: "Commune et Chef lieu : Mâtkas.",
-            state: "Département de Tizi Ouzou",
+            name: "Abdelkader Chabani",
+            town: "Oran",
+            state: "Département de Oran",
             cp: 15154,
             country: "Algérie, (Dz)",
-            phone: "+213 559 205 748",
+            phone: "+213 553 548 205",
             email: "hermesdev9@gmail.com",
           },
           joke: {
@@ -254,7 +254,8 @@ export const state = () => ({
             img: "/project/falcon.jpg",
             description:
               "Boutique e-Commerce, front en React, back en Node.js avec Koa (plus précisément avec Strapi), base de données MongoDB. Le projet a pris plus de 6 mois. Cependant, il ne sera exploité au moins avant la version suivante qui exploitera les avantages de Nuxt.js. De plus, nous devrons intégrer un système de thèmes multiples et de langues multiples.",
-            github: "https://github.com/sosso21/falcon-client-react-app",
+            github:
+              "https://github.com/abdelkaderchabani/falcon-client-react-app",
             host: "https://falcon-com.web.app",
           },
           {
@@ -263,22 +264,22 @@ export const state = () => ({
             description:
               "Boutique e-Commerce en PHP, JS et une base de données MySQL.",
             github:
-              "https://github.com/sosso21/php-TP/tree/master/Salfise%20Shop",
+              "https://github.com/abdelkaderchabani/php-TP/tree/master/Salfise%20Shop",
             host: false,
           },
           {
-            name: "Site vitrine pour un Coiffeur",
+            name: "Site vitrine pour un coifeur",
             img: "/project/amar.jpg",
             description: "Projet simple en Vue.js (Nuxt.js).",
-            github: "https://github.com/sosso21/vitrine-amar-coiffeur",
-            host: "https://amar-coiffeur.web.app",
+            github: "https://github.com/abdelkaderchabani/vitrine-amar-coifeur",
+            host: "https://amar-coifeur.web.app",
           },
           {
             name: "Espace Administrateur pour boutique E-commerce",
             img: "/project/falcon-admin.jpg",
             description:
               "Projet en Vue.js. Ce site permet de générer facilement les différents champs pour la base de données. Il permet également de calculer les prix et les marges de manière simple. De plus, il génère les publications Instagram et Facebook ainsi que les images à exploiter. La prochaine version intégrera une automatisation des publications.",
-            github: "https://github.com/sosso21/vue-falcon-dev-tool",
+            github: "https://github.com/abdelkaderchabani/vue-falcon-dev-tool",
             host: "https://falcon-image.web.app",
           },
           {
@@ -286,7 +287,8 @@ export const state = () => ({
             img: "/project/hermes-dev-react.jpg",
             description:
               "Portfolio en React. Le site a été mis à jour pour des raisons de SEO. De plus, le système de pourcentage de maîtrise des technologies a été retiré. La version actuelle est en Vue.js (Nuxt.js).",
-            github: "https://github.com/sosso21/react-hermes-dev-portfolio.git",
+            github:
+              "https://github.com/abdelkaderchabani/react-hermes-dev-portfolio.git",
             host: "https://hermes-dev-fr.web.app",
           },
           {
@@ -294,7 +296,7 @@ export const state = () => ({
             img: "/project/messanger.jpg",
             description:
               "Messagerie créée avec Node.js, Socket.IO et un client en React.",
-            github: "https://github.com/sosso21/messagerie-socket-io",
+            github: "https://github.com/abdelkaderchabani/messagerie-socket-io",
             host: false,
           },
           {
@@ -302,7 +304,7 @@ export const state = () => ({
             img: "/project/projet66.PNG",
             description:
               "Payload en Bash, Python et Java. Permet de prendre le contrôle d'un ordinateur à distance, de récupérer les frappes de clavier, les images de la webcam à intervalles réguliers et d'effectuer une élévation de privilèges sur la cible. Il est indétectable par les antivirus, les pare-feu et autres mesures de sécurité, tout en restant persistant. Bref, c'est une vraie saloperie xD. Il est possible de l'intégrer dans une vision d'exploitation en le connectant à un serveur ou un FTP.",
-            github: "https://github.com/sosso21/project66",
+            github: "https://github.com/abdelkaderchabani/project66",
             host: false,
           },
           {
